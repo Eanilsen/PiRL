@@ -176,10 +176,10 @@ class Fighter:
         damage = self.power - target.fighter.defense
 
         if damage > 0:
-            print self.owner.name.capitalize() + ' attacks ' + target.name + ' for ' + str(damage) + ' hit points.'
+            # print self.owner.name.capitalize() + ' attacks ' + target.name + ' for ' + str(damage) + ' hit points.'
             target.fighter.take_damage(damage)
-        else:
-            print self.owner.name.capitalize() + ' attacks ' + target.name + ' but it has no effect!'
+        # else:
+            # print self.owner.name.capitalize() + ' attacks ' + target.name + ' but it has no effect!'
 
 class BasicMonster:
     # AI for basic monster
