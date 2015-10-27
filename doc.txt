@@ -1,0 +1,25 @@
+#Returns the equipment in a slot, or None if it's empty
+get_equipped_in_slot(slot)
+
+#Returns a list of equipped items if obj == player
+get_all_equipped(obj)
+
+#Returns True if the tile is blocked by an object
+is_blocked(x, y)
+
+#Make a rectangle and go through the tiles and make them passable
+create_room(room)
+
+create_h_tunnel(x1, x2, y)
+
+create_v_tunnel(y1, y2, x)
+
+make_map()
+
+#Choose one option from a list of chances, returning its index
+random_choice_index(chances)
+
+#Choose one option from a dictionary of chances, returning its key
+random_choice(chances_dict)
+
+#Returns a value that depends on level.
